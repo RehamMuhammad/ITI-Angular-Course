@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+ul {
+    list-style: none;
+}
+
+.main-section{
+    background-image: url('../src/assets/portfolio/mm.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
