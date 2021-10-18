@@ -1,0 +1,35 @@
+   <!--Start Poertfolio Section-->
+   <section class="portfolio mt-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 ">
+          <h2>Portfolio</h2>
+        </div>
+      </div>
+      <div class="row mt-5 ">
+        <div *ngFor="let work of myWorks" class="col-4"   >
+          <div [ngStyle]="{'border':work.Done? '2px solid gray' : '3px solid purple' } " >
+          <img  src= {{work.name}} class="img-thumbnail" alt="portfolio-item" />
+        </div>
+      </div>
+        <!-- <div class="col-4">
+          <img src="../assets/portfolio/Products.png" class="img-thumbnail" alt="portfolio-item" />
+        </div>
+        <div class="col-4">
+          <img src="../assets/portfolio/Products.png" class="img-thumbnail" alt="portfolio-item" />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-4">
+          <img src="../assets/portfolio/Products.png" class="img-thumbnail" alt="portfolio-item" />
+        </div>
+        <div class="col-4">
+          <img src="../assets/portfolio/Products.png" class="img-thumbnail" alt="portfolio-item" />
+        </div>
+        <div class="col-4">
+          <img src="../assets/portfolio/Products.png" class="img-thumbnail" alt="portfolio-item" />
+        </div> -->
+      </div>
+    </div>
+  </section>
+   <!--End Poertfolio Section-->
